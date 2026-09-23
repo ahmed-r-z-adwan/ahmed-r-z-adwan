@@ -4,6 +4,8 @@ Final-year student in **Mobile Computing and Smart Device Applications** at the 
 
 I build Android apps for conditions where the network is the unreliable part. That is not a hypothetical constraint where I work — it decides the architecture. Local storage is the source of truth, sync is deferred and resumable, and write conflicts get resolved deliberately instead of by whichever write happens to land last.
 
+I also like measuring things rather than asserting them. Where a project claims an optimisation or a guarantee, there is usually a test in the repository that produces the number or proves the claim.
+
 ### Currently
 
 - **[سبّورة · Sabbora](https://github.com/ahmed-r-z-adwan/sabbora)** — my graduation project. An offline-first register for teachers at learning points: attendance, marks and reports with no network in the path of any action. Measuring sync behaviour under intermittent connectivity is the research half.
@@ -13,9 +15,10 @@ I build Android apps for conditions where the network is the unreliable part. Th
 
 | Project | What it is |
 |---|---|
-| [sabbora](https://github.com/ahmed-r-z-adwan/sabbora) | Offline-first teacher's register. Room as source of truth, sync metadata in the schema from the first commit. Kotlin, Compose, Room |
+| [sabbora](https://github.com/ahmed-r-z-adwan/sabbora) | Offline-first teacher's register. Room as the source of truth, sync metadata in the schema from the first commit. Kotlin, Compose, Room |
+| [xo-battle](https://github.com/ahmed-r-z-adwan/xo-battle) | Tic-tac-toe built around the search. Alpha-beta with move ordering cuts the tree from 549,946 positions to 7,865 — **98.6%** — for the same move; the benchmark writes that table itself, and an exhaustive test plays every possible game to prove the engine cannot be beaten |
 | [hotspot-helper](https://github.com/ahmed-r-z-adwan/hotspot-helper) | Windows hotspot setup and diagnostics in PowerShell — tethering API with band fallback, service recovery, scoped firewall rules for LAN play |
-| [arboria-tree-algorithms](https://github.com/ahmed-r-z-adwan/arboria-tree-algorithms) | Binary tree and BST algorithms in Java, written as a set of missions |
+| [arboria-tree-algorithms](https://github.com/ahmed-r-z-adwan/arboria-tree-algorithms) | Binary tree and BST algorithms in Java, with 38 tests aimed at the cases a plausible implementation gets wrong |
 | [OnlineShoppingSystem](https://github.com/ahmed-r-z-adwan/OnlineShoppingSystem) | Android shopping app with authentication, catalogue, cart and an admin view. Kotlin, Firebase |
 
 ### Working with
