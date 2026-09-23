@@ -6,18 +6,18 @@ I build Android apps for conditions where the network is the unreliable part. Th
 
 ### Currently
 
-- **صراف Manager** — an offline-first Android app for money-exchange bookkeeping: multi-currency ledgers, counterparty settlement and statement export. Kotlin, Jetpack Compose, Room.
-- Choosing a graduation project, most likely on offline-first synchronisation under intermittent connectivity
+- **[سبّورة · Sabbora](https://github.com/ahmed-r-z-adwan/sabbora)** — my graduation project. An offline-first register for teachers at learning points: attendance, marks and reports with no network in the path of any action. Measuring sync behaviour under intermittent connectivity is the research half.
 - Applying for master's programmes in Mobile Computing for the 2027/28 intake
 
 ### Selected work
 
 | Project | What it is |
 |---|---|
+| [sabbora](https://github.com/ahmed-r-z-adwan/sabbora) | Offline-first teacher's register. Room as source of truth, sync metadata in the schema from the first commit. Kotlin, Compose, Room |
 | [hotspot-helper](https://github.com/ahmed-r-z-adwan/hotspot-helper) | Windows hotspot setup and diagnostics in PowerShell — tethering API with band fallback, service recovery, scoped firewall rules for LAN play |
 | [arboria-tree-algorithms](https://github.com/ahmed-r-z-adwan/arboria-tree-algorithms) | Binary tree and BST algorithms in Java, written as a set of missions |
 | [OnlineShoppingSystem](https://github.com/ahmed-r-z-adwan/OnlineShoppingSystem) | Android shopping app with authentication, catalogue, cart and an admin view. Kotlin, Firebase |
 
 ### Working with
 
-Kotlin · Jetpack Compose · Room · Firebase · Java · PowerShell · SQLite
+Kotlin · Jetpack Compose · Material 3 · Room · Firebase · Java · PowerShell · SQLite
